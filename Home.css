@@ -1,75 +1,27 @@
  .u-section-1 {
   background-image: url("images/photo_2021-11-29_15-50-48.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
   min-height: 842px;
 }
 
-.u-section-1 .u-btn-1 {
-  border-style: none;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  letter-spacing: 2px;
-  background-image: none;
-  margin: 727px 335px 0 auto;
-  padding: 10px 50px 12px 49px;
-}
-
-.u-section-1 .u-btn-2 {
-  border-style: none;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  letter-spacing: 2px;
-  background-image: none;
-  font-weight: 700;
-  margin: -44px auto 60px 217px;
-  padding: 11px 50px 11px 49px;
-}
-
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 701px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: -20px;
-    margin-right: 135px;
-  }
-
-  .u-section-1 .u-btn-2 {
-    margin-left: 17px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-btn-1 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-btn-2 {
-    margin-left: 0;
+    min-height: 775px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 679px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 2px;
+    min-height: 753px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 531px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-top: 150px;
+    min-height: 605px;
   }
 } .u-section-2 {
   background-image: none;
@@ -111,7 +63,6 @@
 .u-section-2 .u-group-1 {
   width: 403px;
   min-height: 274px;
-  height: auto;
   margin: -65px 0 0 auto;
 }
 
@@ -146,7 +97,6 @@
   width: 403px;
   min-height: 274px;
   background-size: auto;
-  height: auto;
   margin: -65px 0 0 auto;
 }
 
@@ -181,7 +131,6 @@
   width: 403px;
   min-height: 274px;
   background-size: auto;
-  height: auto;
   margin: -65px 0 0 auto;
 }
 
@@ -216,7 +165,6 @@
   width: 403px;
   min-height: 274px;
   background-size: auto;
-  height: auto;
   margin: -65px 0 0 auto;
 }
 
@@ -245,22 +193,6 @@
   .u-section-2 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 5px));
     min-height: 539px;
-  }
-
-  .u-section-2 .u-group-1 {
-    height: auto;
-  }
-
-  .u-section-2 .u-group-2 {
-    height: auto;
-  }
-
-  .u-section-2 .u-group-3 {
-    height: auto;
-  }
-
-  .u-section-2 .u-group-4 {
-    height: auto;
   }
 }
 
@@ -559,12 +491,12 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 598px;
+  min-height: 624px;
 }
 
 .u-section-4 .u-list-1 {
   margin-top: 121px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 
 .u-section-4 .u-repeater-1 {
@@ -657,11 +589,29 @@
   margin: 20px 17px 0;
 }
 
-@media (max-width: 1199px) {
-  .u-section-4 .u-list-1 {
-    margin-top: 201px;
-  }
+.u-section-4 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  background-image: none;
+  margin: 7px 260px 0 auto;
+  padding: 10px 50px 12px 49px;
+}
 
+.u-section-4 .u-btn-3 {
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  background-image: none;
+  font-weight: 700;
+  margin: -42px auto 37px 247px;
+  padding: 11px 50px 11px 49px;
+}
+
+@media (max-width: 1199px) {
   .u-section-4 .u-repeater-1 {
     min-height: 340px;
   }
@@ -685,28 +635,32 @@
     margin-right: 0;
     margin-left: 0;
   }
+
+  .u-section-4 .u-btn-2 {
+    margin-right: 60px;
+  }
+
+  .u-section-4 .u-btn-3 {
+    margin-left: 47px;
+  }
 }
 
 @media (max-width: 991px) {
-  .u-section-4 .u-list-1 {
-    margin-top: 789px;
-  }
-
   .u-section-4 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 1042px;
   }
+
+  .u-section-4 .u-btn-2 {
+    margin-right: 0;
+  }
+
+  .u-section-4 .u-btn-3 {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 767px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 592px;
-  }
-
-  .u-section-4 .u-list-1 {
-    margin-top: 915px;
-  }
-
   .u-section-4 .u-repeater-1 {
     grid-template-columns: 100%;
   }
@@ -729,15 +683,5 @@
   .u-section-4 .u-container-layout-4 {
     padding-left: 10px;
     padding-right: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 557px;
-  }
-
-  .u-section-4 .u-list-1 {
-    margin-top: 978px;
   }
 }
